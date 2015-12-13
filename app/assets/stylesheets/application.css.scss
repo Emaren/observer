@@ -18,7 +18,7 @@
  @import "bootstrap";
 
  a:visited {
-   color: lighten(blue, 10%);
+   color: lighten(darkred, 6%);
  }
 
  #logo {
@@ -60,3 +60,7 @@
  		}
  	}
  }
+
+.link-title {
+  line-height: 60%;
+}
