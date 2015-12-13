@@ -2,7 +2,7 @@
   <div class="link row clearfix">
     <h3 class="link-title">
     <%= link_to link.title, link %></h3>
-    <em><sup class="author">Submitted <%= time_ago_in_words(link.created_at) %> ago by <%= link.user.email %></sup></em><br><br><br>
+    <em><sup class="author">Submitted <%= time_ago_in_words(link.created_at) %> ago by <%= link.user.name if link.user %></sup></em><br><br><br>
 
     <div class="btn-group">
       <a class="btn btn-default btn-sm" href="<%= link.url %>">Visit Link</a>
